@@ -1,0 +1,32 @@
+.quote-card {
+    width: 500px;
+    margin-top: 1.5rem;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.quote-card i { 
+    color: rgb(143, 221, 205);
+    font-size: 40px;
+}
+
+.quote-card #right-quote {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote-card figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-card blockquote {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between
+}
